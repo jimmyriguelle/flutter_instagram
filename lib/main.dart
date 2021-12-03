@@ -30,6 +30,15 @@ class MyApp extends StatelessWidget {
             'images/instagram-logo.png',
             height: 70.0,
           ),
+          actions: [
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(
+                Icons.send_outlined,
+                color: Colors.black,
+              ),
+            ),
+          ],
         ),
       ),
     );
